@@ -62,16 +62,20 @@ The following wiring has been used with the F10/F11 6WA cluster in this project.
 | Pin 1 | +12 V | Power supply +12 V |
 | Pin 2 | +12 V | Power supply +12 V |
 | Pin 3 | -- | -- |
+| Pin 4 | Temperature sensor signal | Outside temperature sensor |
+| Pin 5 | Temperature sensor signal | Outside temperature sensor |
 | Pin 6 | CAN High | CAN High on CAN Bus Shield |
 | Pin 7 | Ground | Power supply Ground |
 | Pin 8 | Ground | Power supply Ground |
+| Pin 9 | -- | -- |
+| Pin 10 | -- | -- |
 | Pin 11 | Wake / Terminal / 15WUP | Power supply +12 V |
 | Pin 12 | CAN Low | CAN Low on CAN Bus Shield |
 
 Basic connection:
 
 ```text
-BMW 6WA                     CAN Shield / Power Supply
+BMW 6WA             CAN Bus Shield / Power Supply
 
 Pin 1  -------------------- +12 V
 Pin 2  -------------------- +12 V
@@ -248,7 +252,7 @@ Configure BeamNG.drive to send OutGauge packets to that address.
 Then click:
 
 ```text
-BeamNG Listener starten
+Start listening
 ```
 
 When packets are received, the GUI displays live values such as:
