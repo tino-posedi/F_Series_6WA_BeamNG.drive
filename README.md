@@ -75,7 +75,7 @@ The following wiring has been used with the F10/F11 6WA cluster in this project.
 Basic connection:
 
 ```text
-BMW 6WA             CAN Bus Shield / Power Supply
+BMW 6WA             CAN Bus Shield / Power supply
 
 Pin 1  -------------------- +12 V
 Pin 2  -------------------- +12 V
