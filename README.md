@@ -1,4 +1,4 @@
-# BMW F1x 6WA Instrument Cluster Controller for BeamNG.drive
+# BMW F1x 6WA Instrument Cluster Controller
 
 Control a physical BMW F1x instrument cluster using an **Arduino Uno**, a **CAN Bus Shield**, and live telemetry from **BeamNG.drive**.
 
