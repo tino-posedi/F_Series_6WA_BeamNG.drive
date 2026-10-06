@@ -271,7 +271,7 @@ Lights
 
 # Safety
 
-## Do not connect 12 V to Arduino pins
+## Do not connect 12 V to Arduino pins!
 
 The 6WA instrument cluster uses 12 V power.
 
